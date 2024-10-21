@@ -1,0 +1,58 @@
+body {
+font-family: Tahoma;
+  font-size: 16px;
+  background-color: rgb(30,40,60);
+  color: white;
+  text-align: center;
+  width: 50%
+  margin: 0;
+}
+
+form {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 600px;
+  min-width: 300px;
+  padding: 0 0 2em 0;
+}
+
+fieldset {
+  border: 0;
+}
+
+#description {
+  font-weight: bold;
+}
+
+#title {
+    background: linear-gradient(90deg, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 1.5em 0 0 0;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 1em 0 1em 0;
+}
+
+input, select, textarea {
+  margin: 0.5em 0 0 0px;
+  width: 100%;
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  min-height: 2em;
+  color: white;
+}
+
+.inline {  
+  display: inline;
+}
+
+#rad {
+  display: block;
+}
+
+** end of undefined **
+
