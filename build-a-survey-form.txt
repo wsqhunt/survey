@@ -1,0 +1,102 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Will's Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Will's Survery Form</h1>
+    <p id="description">This is my survey form. I built this so I can learn HTML and CSS :)</p>
+  <form method="post" action='https://register-demo.freecodecamp.org' id="survey-form">
+    <fieldset>
+      <label for="name" id="name-label">Full Name: <input type="text" id="name" name="name" placeholder="enter your name" required></label>
+     <label for="email" id="email-label">Email: <input type="email" id="email" placeholder="enter a valid email address" required></label>
+     <label for="number" id="number-label">Rating: <input type="number" id="number" placeholder="rate this form between 1 and 10" min="1" max="10" required></label>
+      <label for="dropdown">How did you find this form?
+     <select id="dropdown" required>
+       <option value="">(select one)</option>
+       <option value="direct">Direct Link</option>
+       <option value="google">Google</option>
+       <option value="git">GitHub</option>
+      <select>
+      </label>
+      <label for="notes">How can I improve the form?
+        <textarea id="notes" rows="6"></textarea>
+        <legend for="rad">Ice or Inline?
+      </label>
+      <label id="rad">Ice<input type="radio" name="ice-inline" value="ice" checked></label>
+            <label id="rad">Inline<input type="radio" value="inline" name="ice-inline"></label>
+
+  <label>Do you consent to my spaghetti code?<input  class="inline" value="spaghetti" type="checkbox"</label>
+  <label class="inline">Have you read the T&C's?<input value="tac" type="checkbox"</label>
+    </fieldset>
+  <input id="submit" type="submit" value="Submit your response">
+  </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+font-family: Tahoma;
+  font-size: 16px;
+  background-color: rgb(30,40,60);
+  color: white;
+  text-align: center;
+  width: 50%
+  margin: 0;
+}
+
+form {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 600px;
+  min-width: 300px;
+  padding: 0 0 2em 0;
+}
+
+fieldset {
+  border: 0;
+}
+
+#description {
+  font-weight: bold;
+}
+
+#title {
+    background: linear-gradient(90deg, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 1.5em 0 0 0;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 1em 0 1em 0;
+}
+
+input, select, textarea {
+  margin: 0.5em 0 0 0px;
+  width: 100%;
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  min-height: 2em;
+  color: white;
+}
+
+.inline {  
+  display: inline;
+}
+
+#rad {
+  display: block;
+}
+
+** end of undefined **
+
